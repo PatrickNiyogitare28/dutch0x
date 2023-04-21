@@ -9,3 +9,7 @@ export type Feature = {
     bgColor: string;
     iconName: string;
 }
+
+export type Action = {
+    name: 'Running' | 'Interrupted' | 'Completed' | 'Pending' | 'Canceled'
+}
