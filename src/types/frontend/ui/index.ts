@@ -13,3 +13,12 @@ export type Feature = {
 export type Action = {
     name: 'Running' | 'Interrupted' | 'Completed' | 'Pending' | 'Canceled'
 }
+
+export type OverViewItem = {
+    subItems: string[],
+    count?: string
+}
+export type Overview = {
+    title?: string;
+    items: OverViewItem[]
+}
