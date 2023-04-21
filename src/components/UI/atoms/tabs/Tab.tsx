@@ -1,4 +1,4 @@
-import { Tab } from "@/types/frontend/ui/Tab";
+import { Tab } from "@/types/frontend/ui";
 
 export default function TabItem({label, isActive, status}: Tab){
     return (

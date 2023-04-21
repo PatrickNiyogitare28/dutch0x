@@ -22,7 +22,16 @@ module.exports = {
           default: "#70BC63",
           light: "rgba(112, 188, 99, 0.2)"
         },
-        light: "rgba(255,255,255,0.1)"
+        light: "rgba(255,255,255,0.1)",
+        danger: {
+          default: "#DF4141"
+        },
+        info: {
+          default: "#4798E3",
+        },
+        success: {
+          default: "#70BC63", 
+        }
       }
     },
   },

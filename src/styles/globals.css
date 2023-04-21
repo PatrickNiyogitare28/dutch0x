@@ -41,6 +41,12 @@
   font-weight: normal; 
 }
 
+.progress-bg-gradient {
+ background: linear-gradient(270deg, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 0.5) 100%), #FF4800;
+ background-blend-mode: overlay, normal;
+}
+
+
 body {
   font-family: 'Satoshi', sans-serif;
 }

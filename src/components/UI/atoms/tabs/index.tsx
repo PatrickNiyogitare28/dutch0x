@@ -1,4 +1,4 @@
-import { Tab } from "@/types/frontend/ui/Tab"
+import { Tab } from "@/types/frontend/ui"
 import TabItem from "./Tab";
 
 export default function Tabs () {
