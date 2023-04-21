@@ -1,27 +1,48 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* @import url('https://fonts.cdnfonts.com/css/satoshi'); */
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+@font-face {
+  font-family: 'Satoshi';
+  src: url('../../public/assets/fonts/Satoshi/Fonts/OTF/Satoshi-Regular.otf') format('truetype'); /* Update the file name and format for the regular version */
+  font-weight: normal;
+  font-style: normal;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+@font-face {
+  font-family: 'Satoshi';
+  src: url('../../public/assets/fonts/Satoshi/Fonts/OTF/Satoshi-Bold.otf') format('truetype'); /* Update the file name and format for the bold version */
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('../../public/assets/fonts/Satoshi/Fonts/OTF/Satoshi-Light.otf') format('truetype'); /* Update the file name and format for the bold version */
+  font-weight: light;
+  font-style: normal;
+}
+
+
+/* Add additional font-face declarations for other font styles (italic, bold italic, etc.) if needed */
+
+.satoshi-bold {
+  font-family: 'Satoshi', sans-serif;
+  font-weight: bold; 
+}
+
+.satoshi-light {
+  font-family: 'Satoshi', sans-serif;
+  font-weight: light; 
+}
+
+.satoshi-regular {
+  font-family: 'Satoshi', sans-serif;
+  font-weight: normal; 
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  font-family: 'Satoshi', sans-serif;
 }
+
