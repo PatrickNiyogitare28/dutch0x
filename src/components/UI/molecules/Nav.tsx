@@ -8,7 +8,7 @@ import UserWallet from '../atoms/wallet';
 
 export default function Nav(){
     return (
-        <div className="px-6 py-2 flex justify-between items-center h-[max-content] w-[100vw] border-b-[0.5px] border-b-gray-400">
+        <div className="px-6 py-2 flex justify-between items-center h-[max-content] w-[100vw] border-b-[0.5px] border-light">
             <div>
                 {/* logo */}
                 <Image src="/assets/logos/logo.svg" width={150} height={50} alt="logo" />
