@@ -1,10 +1,10 @@
-import React, { useRef } from "react";
+import React, { LegacyRef, useRef } from "react";
 import Image from "next/image";
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
 
 
 export default function TransactionAssets() {
-  const carouselRef = useRef(null);
+  const carouselRef:React.RefObject<HTMLElement> = useRef(null);
 
   const handleNext = () => {
     if (carouselRef.current) {
@@ -43,7 +43,7 @@ export default function TransactionAssets() {
         <div
           className="flex overflow-hidden"
           style={{ width: "200px", height: "50px" }}
-          ref={carouselRef}
+          ref={carouselRef as LegacyRef<HTMLDivElement>}
         >
           {/* Carousel Slides */}
           <div className="flex-none mr-2">
