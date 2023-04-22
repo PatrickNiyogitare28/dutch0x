@@ -7,7 +7,7 @@ export default function Activities () {
     return (
         <div className="">
            <div className="flex gap-6">
-             <label className="text-[1.2rem] font-light text-white opacity-[50%]">Recent Activity</label>
+             <label className="text-[1.2rem] font-light text-white opacity-[50%]">Recents</label>
              <EventActions />
            </div> 
            <div className="mt-2">

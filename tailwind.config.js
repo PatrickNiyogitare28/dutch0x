@@ -31,7 +31,8 @@ module.exports = {
         },
         success: {
           default: "#70BC63", 
-        }
+        },
+        base: "#121212"
       }
     },
   },
