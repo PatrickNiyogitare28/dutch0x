@@ -30,12 +30,12 @@ export default function Features () {
     }
   ]
   return (
-    <div className="w-[100vw]  p-4 flex justify-between border-b-[0.5px] border-light">
-        {features.map(({label, bgColor, iconName}, index: number) => (
-            <div key={index} className="w-[19%]">
-                <FeatureItem label={label} bgColor={bgColor} iconName={iconName} />
-            </div>
-        ))}
-    </div>
+    <div className="w-[100vw] p-4 flex justify-between border-b-[0.5px] border-light">
+    {features.map(({label, bgColor, iconName}, index: number) => (
+        <div key={index} className="w-[19%] hover:scale-105 transition duration-300 ease-in-out cursor-pointer">
+            <FeatureItem label={label} bgColor={bgColor} iconName={iconName} />
+        </div>
+    ))}
+</div>
   )
 }

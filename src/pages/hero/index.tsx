@@ -5,7 +5,7 @@ import React from 'react';
 
 export default function LandingPage() {
  return (
-   <div className='min-h-screen bg-[#121212] '>
+   <div className='min-h-screen bg-base '>
      <Nav />
      <Features />
      <RecentActivities />
