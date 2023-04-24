@@ -14,7 +14,7 @@ export default function EventActions (){
         }
     ]
     return (
-        <div className="flex gap-6 items-center">
+        <div className="flex gap-4 items-center">
            {
             actions.map(({name}, index: number) => (
                 <ActionItem name={name} key={index} />

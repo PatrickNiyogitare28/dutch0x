@@ -24,7 +24,7 @@ export default function Tabs () {
 
 
     return (
-        <div className="flex gap-6">
+        <div className="flex gap-6 mt-4">
            {tabs.map(({label, isActive, status}, index: number) => (
             <TabItem key={index} label={label} isActive={isActive} status={status} />
            ))}
