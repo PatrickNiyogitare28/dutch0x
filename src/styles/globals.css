@@ -46,6 +46,11 @@
  background-blend-mode: overlay, normal;
 }
 
+.grassy-gradient{
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
 
 body {
   font-family: 'Satoshi', sans-serif;
